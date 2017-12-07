@@ -219,7 +219,6 @@ clean-all: clean clean-cache clean-repos
 .PHONY: clone-repos
 clone-repos:
 	@$(call HELPTEXT,$@)
-	@cd repos;                              \
 	for repo in $(REPOS) ; do               \
 		$(call ACTION_MESSAGE,$$repo);      \
 		[ -d $$repo ]                       \
@@ -234,7 +233,6 @@ clone-repos:
 .PHONY: pull-repos
 pull-repos:
 	@$(call HELPTEXT,$@)
-	@cd repos;                              \
 	for repo in $(REPOS) ; do               \
 		$(call ACTION_MESSAGE,$$repo);      \
 		(cd $$repo && git pull);            \
@@ -246,7 +244,7 @@ pull-repos:
 .PHONY: clean-repos
 clean-repos:
 	@$(call HELPTEXT,$@)
-	cd repos && rm -rf $(REPOS)
+	rm -rf $(REPOS)
 
 
 
@@ -254,7 +252,6 @@ clean-repos:
 .PHONY: status-repos
 status-repos:
 	@$(call HELPTEXT,$@)
-	@cd repos;                                   \
 	for repo in $(REPOS) ; do                    \
 		$(call ACTION_MESSAGE,$$repo);           \
 		(cd $$repo && git status);               \
@@ -266,7 +263,6 @@ status-repos:
 .PHONY: check-repos
 check-repos:
 	@$(call HELPTEXT,$@)
-	@cd repos;                                      \
 	for repo in $(REPOS) ; do                       \
 		$(call ACTION_MESSAGE,$$repo);              \
 		du -sk $$repo/.git;                         \
