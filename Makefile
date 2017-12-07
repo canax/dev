@@ -136,14 +136,14 @@ status: status-repos
 # 
 # 
 # 
-# target: update             - Update the repos and essentials.
-.PHONY:  update
-update:
-	@$(call HELPTEXT,$@)
-	git pull
-	$(MAKE) pull
-	# [ ! -f composer.json ] || composer update
-	# [ ! -f package.json ] || npm update
+# # target: update             - Update this dev-repo and all other repos.
+# .PHONY:  update
+# update:
+# 	@$(call HELPTEXT,$@)
+# 	git pull
+# 	$(MAKE) pull
+# 	# [ ! -f composer.json ] || composer update
+# 	# [ ! -f package.json ] || npm update
 
 
 
@@ -154,15 +154,15 @@ clean:
 
 
 
-# target: clean-cache        - Clean the cache.
-.PHONY:  clean-cache
-clean-cache:
-	@$(call HELPTEXT,$@)
-	#rm -rf cache/*/*
+# # target: clean-cache        - Clean the cache.
+# .PHONY:  clean-cache
+# clean-cache:
+# 	@$(call HELPTEXT,$@)
+# 	#rm -rf cache/*/*
 
 
 
-# target: clean-all          - Removes generated files and directories.
+# target: clean-all          - Removes all generated files and repost.
 .PHONY:  clean-all
 clean-all: clean clean-cache clean-repos
 	@$(call HELPTEXT,$@)
