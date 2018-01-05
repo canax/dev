@@ -79,6 +79,7 @@ REPOS := \
 	htmlform 			\
 	page 				\
 	remserver 			\
+	remserver-website	\
 	response 			\
 	request 			\
 	router 				\
