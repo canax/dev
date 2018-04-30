@@ -78,6 +78,7 @@ REPOS := \
 	docker  			\
 	htmlform 			\
 	page 				\
+	proxy 				\
 	remserver 			\
 	remserver-website	\
 	response 			\

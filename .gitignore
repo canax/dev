@@ -9,6 +9,7 @@ di/
 docker/
 htmlform/
 page/
+proxy/
 remserver/
 remserver-website/
 request/
