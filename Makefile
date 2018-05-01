@@ -67,10 +67,13 @@ NODEMODBIN := node_modules/.bin
 ORG := git@github.com:canax
 
 REPOS := \
+	anax	 			\
 	anax-cli 			\
 	anax-flat  			\
+	anax-flat2 			\
 	anax-flat-theme		\
 	anax-flat-website 	\
+	anax-lite  			\
 	common 				\
 	configure 			\
 	database 			\
