@@ -77,6 +77,7 @@ REPOS := \
 	di 					\
 	docker  			\
 	htmlform 			\
+	middleware 			\
 	page 				\
 	proxy 				\
 	remserver 			\
