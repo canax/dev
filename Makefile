@@ -75,6 +75,7 @@ REPOS := \
 	anax-flat-website 	\
 	anax-lite  			\
 	common 				\
+	commons				\
 	configure 			\
 	database 			\
 	di 					\
