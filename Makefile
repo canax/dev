@@ -74,8 +74,10 @@ REPOS := \
 	anax-flat-theme		\
 	anax-flat-website 	\
 	anax-lite  			\
+	anax-oophp-me		\
 	common 				\
 	commons				\
+	controller			\
 	configure 			\
 	database 			\
 	di 					\
