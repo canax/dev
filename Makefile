@@ -75,6 +75,7 @@ REPOS := \
 	anax-flat-website 	\
 	anax-lite  			\
 	anax-oophp-me		\
+	cache 				\
 	common 				\
 	commons				\
 	controller			\
@@ -83,6 +84,7 @@ REPOS := \
 	di 					\
 	docker  			\
 	htmlform 			\
+	log 				\
 	middleware 			\
 	page 				\
 	proxy 				\

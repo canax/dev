@@ -6,6 +6,7 @@ anax-flat/
 anax-flat2/
 anax-lite/
 anax-oophp-me/
+cache/
 common/
 commons/
 controller/
@@ -14,6 +15,7 @@ database/
 di/
 docker/
 htmlform/
+log/
 middleware/
 page/
 proxy/
