@@ -68,6 +68,7 @@ ORG := git@github.com:canax
 
 REPOS := \
 	anax	 			\
+	anax-design-me		\
 	anax-cli 			\
 	anax-flat  			\
 	anax-flat2 			\
