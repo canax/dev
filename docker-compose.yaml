@@ -1,10 +1,10 @@
 version: "3"
 services:
-    php72: &latest
+    php72:
         image: anax/dev:php72
         volumes: [ ".:/home/anax/repo" ]
 
-    php72-apache: &latest-apache
+    php72-apache:
         image: anax/dev:php72-apache
         ports: [ "10072:80" ]
         volumes: [ ".:/home/anax/repo" ]
@@ -22,7 +22,7 @@ services:
         image: anax/dev:php70
         volumes: [ ".:/home/anax/repo" ]
 
-    php70-apache:
+    php70:
         image: anax/dev:php70-apache
         ports: [ "10070:80" ]
         volumes: [ ".:/home/anax/repo" ]
@@ -31,14 +31,32 @@ services:
         image: anax/dev:php56
         volumes: [ ".:/home/anax/repo" ]
 
-    php56-apache:
+    php56:
         image: anax/dev:php56-apache
         ports: [ "10056:80" ]
         volumes: [ ".:/home/anax/repo" ]
 
     latest:
-        <<: *latest
+        image: anax/dev:latest
+        volumes: [ ".:/home/anax/repo" ]
 
-    latest-apache:
-        <<: *latest-apache
-        ports: [ "10080:80" ]
+    cli:
+        image: anax/dev:cli
+        volumes: [ ".:/home/anax/repo" ]
+
+    apache:
+        image: anax/dev:apache
+        volumes: [ ".:/home/anax/repo" ]
+        ports: [ "10099:80" ]
+
+    remserver:
+        image: anax/dev:remserver
+        ports: [ "10099:80" ]
+
+    website:
+        image: anax/dev:apache
+        ports:
+            - "10099:80"
+        volumes:
+            - ".:/home/anax/repo"
+            - "./.config/docker/anax.conf:/etc/apache2/sites-enabled/000-default.conf"
