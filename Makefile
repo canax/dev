@@ -79,6 +79,7 @@ REPOS := \
 	cache 				\
 	common 				\
 	commons				\
+	content				\
 	controller			\
 	configure 			\
 	database 			\
