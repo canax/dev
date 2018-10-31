@@ -76,6 +76,7 @@ REPOS := \
 	anax-flat-website 	\
 	anax-lite  			\
 	anax-oophp-me		\
+	anax-ramverk1-me	\
 	cache 				\
 	common 				\
 	commons				\
