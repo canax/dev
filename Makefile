@@ -85,6 +85,7 @@ REPOS := \
 	configure 			\
 	database 			\
 	database-query-builder \
+	database-active-record \
 	di 					\
 	docker  			\
 	htmlform 			\
