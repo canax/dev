@@ -70,6 +70,7 @@ REPOS := \
 	anax	 			\
 	anax-design-me		\
 	anax-cli 			\
+	anax-doc 			\
 	anax-flat  			\
 	anax-flat2 			\
 	anax-flat-theme		\
@@ -91,6 +92,7 @@ REPOS := \
 	htmlform 			\
 	log 				\
 	middleware 			\
+	navigation 			\
 	page 				\
 	proxy 				\
 	remserver 			\
@@ -100,6 +102,7 @@ REPOS := \
 	router 				\
 	scaffold 			\
 	session 			\
+	stylechooser		\
 	textfilter 			\
 	uri 				\
 	url  				\

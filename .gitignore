@@ -1,6 +1,7 @@
 /anax/
 /anax-design-me/
 /anax-cli/
+/anax-doc/
 /anax-flat-theme/
 /anax-flat-website/
 /anax-flat/
@@ -22,6 +23,7 @@
 /htmlform/
 /log/
 /middleware/
+/navigation/
 /page/
 /proxy/
 /remserver/
@@ -31,6 +33,7 @@
 /router/
 /scaffold/
 /session/
+/stylechooser/
 /textfilter/
 /uri/
 /url/
