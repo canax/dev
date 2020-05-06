@@ -68,6 +68,7 @@ ORG := git@github.com:canax
 
 REPOS := \
 	anax	 			\
+	anax.wiki			\
 	anax-design-me		\
 	anax-cli 			\
 	anax-doc 			\
@@ -122,9 +123,9 @@ REPOS := \
 # 	[ -d .bin ] || mkdir .bin
 # 	[ -d build ] || mkdir build
 # 	rm -rf build/*
-# 
-# 
-# 
+#
+#
+#
 # target: clone              - Clone all repos
 .PHONY:  clone
 clone: clone-repos
@@ -152,9 +153,9 @@ status: status-repos
 # .PHONY:  install
 # install:
 # 	@$(call HELPTEXT,$@)
-# 
-# 
-# 
+#
+#
+#
 # # target: update             - Update this dev-repo and all other repos.
 # .PHONY:  update
 # update:
@@ -193,31 +194,31 @@ clean-all: clean clean-cache clean-repos
 # .PHONY:  check
 # check: check-tools-js #check-tools-bash check-tools-php
 # 	@$(call HELPTEXT,$@)
-# 
-# 
-# 
+#
+#
+#
 # # target: test               - Run all tests.
 # .PHONY: test
 # test: htmlhint stylelint eslint jsunittest
 # 	@$(call HELPTEXT,$@)
 # 	[ ! -f composer.json ] || composer validate
-# 
-# 
-# 
+#
+#
+#
 # # target: doc                - Generate documentation.
 # .PHONY: doc
-# doc: 
+# doc:
 # 	@$(call HELPTEXT,$@)
-# 
-# 
-# 
+#
+#
+#
 # # target: build              - Do all build
 # .PHONY: build
 # build: test doc #theme less-compile less-minify js-minify
 # 	@$(call HELPTEXT,$@)
-# 
-# 
-# 
+#
+#
+#
 # # target: tag-prepare        - Prepare to tag new version.
 # .PHONY: tag-prepare
 # tag-prepare:
