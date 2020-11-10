@@ -84,6 +84,7 @@ REPOS := \
 	common 				\
 	commons				\
 	content				\
+	content-md			\
 	controller			\
 	configure 			\
 	database 			\
