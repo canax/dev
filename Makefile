@@ -97,6 +97,7 @@ REPOS := \
 	middleware 			\
 	navigation 			\
 	page 				\
+	panax 				\
 	proxy 				\
 	remserver 			\
 	remserver-website	\
