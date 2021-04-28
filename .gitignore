@@ -21,6 +21,7 @@
 /database/
 /database-query-builder/
 /database-active-record/
+/devtools/
 /di/
 /docker/
 /htmlform/
@@ -29,6 +30,7 @@
 /navigation/
 /page/
 /panax/
+/panax.wiki/
 /proxy/
 /remserver/
 /remserver-website/

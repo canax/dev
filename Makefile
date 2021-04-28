@@ -90,14 +90,16 @@ REPOS := \
 	database 			\
 	database-query-builder \
 	database-active-record \
-	di 					\
+    devtools			\
+    di 					\
 	docker  			\
 	htmlform 			\
 	log 				\
 	middleware 			\
 	navigation 			\
 	page 				\
-	panax 				\
+    panax 				\
+    panax.wiki 			\
 	proxy 				\
 	remserver 			\
 	remserver-website	\
